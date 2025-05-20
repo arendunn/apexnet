@@ -11,17 +11,6 @@ We specialize in building responsive, clean, and fast-loading websites tailored 
 
 ---
 
-## 📄 License
-
-© 2025 ApexNet. All rights reserved.  
-Licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license.
-
-This means:
-- You can view and share the content with credit
-- You may **not** use it commercially or modify it
-
----
-
 ## 📬 Contact
 
 Want a website for your business?
@@ -31,3 +20,14 @@ Want a website for your business?
 🌐 Website Coming Soon
 
 Let’s build something great.
+
+---
+
+## 📄 License
+
+© 2025 ApexNet. All rights reserved.  
+Licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) license.
+
+This means:
+- You can view and share the content with credit
+- You may **not** use it commercially or modify it
