@@ -9,41 +9,6 @@ ApexNet is a web design and digital solutions provider focused on helping small 
 
 We specialize in building responsive, clean, and fast-loading websites tailored to your business needs.
 
-### 🔹 Website Packages:
-| Package       | Features                                                                 | Price (AUD)       |
-|---------------|--------------------------------------------------------------------------|-------------------|
-| Starter Site  | 1–3 Pages, Responsive, Custom Styling, Contact Form, Basic SEO           | $600 – $1000      |
-| Standard Site | 4–6 Pages, Mobile-First, Google Maps, Testimonials, SEO Tags            | $1000 – $1500     |
-| Pro Site      | 6–8 Pages, Blog/CTA, Social Embeds, Analytics Setup                      | $1500 – $2200     |
-
-### 🔹 Add-Ons:
-- Domain & Email Setup
-- Blog Integration
-- SEO Optimisation
-- Booking Systems
-- Extra Pages or Feature Upgrades
-
----
-
-## 📂 Tech Stack
-
-We use:
-- **HTML5 + TailwindCSS** for beautiful and scalable UIs
-- Optional **JavaScript** functionality
-- Hosted via GitHub Pages, Netlify, or client hosting
-- CDN or CLI builds depending on project needs
-
----
-
-## 🧰 Sample Sites
-
-We maintain a few sample projects to showcase Starter Site capabilities:
-- **FreshBrew Café** – A clean site for a local coffee shop
-- **BrightFix Electrical** – A professional electrician's portfolio
-- **Coastal Cuts** – A modern barber booking site
-- **Luna Yoga** – Peaceful wellness website
-- **Crisp Creative** – A freelance design portfolio
-
 ---
 
 ## 📄 License
@@ -61,7 +26,7 @@ This means:
 
 Want a website for your business?
 
-📧 apexnet.contact@gmail.com  
+📧 arendunn@hotmail.com  
 📸 [@apexnet.au](https://instagram.com/apexnet.au)  
 🌐 Website Coming Soon
 
