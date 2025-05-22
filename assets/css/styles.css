@@ -18,9 +18,9 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: #cad3d8;
+    background-color: #e3e3e3;
     color: #414141;
-    box-shadow: 0 1px 2px #e0e0e0;
+    box-shadow: 0 1px 2px #a1a1a1;
     transition: transform 0.7s;
 }
 
