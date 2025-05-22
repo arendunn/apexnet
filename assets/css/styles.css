@@ -120,6 +120,12 @@ nav {
     padding-left: 10px;
 }
 
+footer {
+    background: linear-gradient(to bottom, #1A1A1A 0%, #2A2A2A 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: smaller;
+}
+
 @media screen and (max-width: 767px) {
     #navbar-links {
         display: none;
