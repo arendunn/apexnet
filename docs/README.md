@@ -1,4 +1,4 @@
-# ApexNet Websites 🌐
+# ApexNet 🌐
 
 **Innovating the digital future.**  
 ApexNet is a web design and digital solutions provider focused on helping small businesses build modern, effective, and affordable web presence.
