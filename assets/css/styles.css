@@ -108,15 +108,15 @@ nav {
 .services-item {
     border-left: #1A1A1A solid 4px;
     padding: 20px;
+    width: 40%;
 }
 
-.services span {
+.services span, .services li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
 .services li {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 10px;
 }
 
 @media screen and (max-width: 767px) {
