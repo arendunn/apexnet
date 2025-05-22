@@ -5,8 +5,12 @@ function goToServices() {
     }
 }
 
-function goToContact() {
+function goToContactPage() {
     window.location.href = "../contact/";
+}
+
+function goToServicesPage() {
+    window.location.href = "../services/";
 }
 
 document.addEventListener("DOMContentLoaded", () => {
