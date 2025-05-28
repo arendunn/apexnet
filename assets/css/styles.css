@@ -126,6 +126,11 @@ footer {
     font-size: smaller;
 }
 
+footer a:hover {
+    color: #747474;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 767px) {
     #navbar-links {
         display: none;
