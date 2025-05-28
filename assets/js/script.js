@@ -6,11 +6,11 @@ function goToServices() {
 }
 
 function goToContactPage() {
-    window.location.href = "../contact/";
+    window.location.href = "../contact.html";
 }
 
 function goToServicesPage() {
-    window.location.href = "../services/";
+    window.location.href = "../services.html";
 }
 
 document.addEventListener("DOMContentLoaded", () => {
