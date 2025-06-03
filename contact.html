@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>ApexNet | Web Development & Digital Solutions</title>
+        <meta name="title" content="ApexNet | Web Development & Digital Solutions"/>
+        <meta name="description" content="ApexNet delivers powerful website development and various other digital solutions. Based in Sydney, we are here to innovate the digital future"/>
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+        <link href="assets/css/styles.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <script src="assets/js/script.js"></script>
+    <body>
+        <nav id="navbar" class="flex justify-between items-center p-10 fixed top-0 left-0 w-full z-50">
+            <a href="index.html">
+                <img class="h-7" src="assets/img/logo.png" alt="ApexNet Logo"/>
+            </a>
+            <div id="navbar-hamburger" class="navbar hidden">
+                //
+            </div>
+            <div id="navbar-links" class="navbar flex justify-between items-center gap-10">
+                <a class="text-2xl" href="index.html">Home</a>
+                <a class="text-2xl" href="services.html">Our Services</a>
+                <a class="text-2xl" href="work.html">Our Work</a>
+                <a class="text-2xl" href="contact.html">Contact</a>
+            </div>
+        </nav>
+        <section class="contact flex justify-center items-center flex-col  pt-60">
+            <h1 class="text-4xl border-l-4 border-sky-600 px-5">Tell us a bit and we'll take it from here!</h1>
+            <form class="py-20">
+                <div class="pb-10 flex flex-col items-center">
+                    <div class="px-10 w-80">
+                        <label>Your Name</label>
+                        <input type="text" name="name" 
+                            class="sub mt-1 px-1 w-full border border-sky-600 rounded-md focus:outline-none focus:ring-1"
+                            required>
+                    </div>
+                    <div class="px-10 pt-5 w-80">
+                        <label>Your Email</label>
+                        <input type="email" name="email" 
+                            class="sub mt-1 px-1 w-full border border-sky-600 rounded-md focus:outline-none focus:ring-1"
+                            required>
+                    </div>
+                    <div class="px-10 pt-5 w-80">
+                        <label>Your Phone Number</label>
+                        <input type="text" name="email" 
+                            class="sub mt-1 px-1 w-full border border-sky-600 rounded-md focus:outline-none focus:ring-1"
+                            required>
+                    </div>
+                    <div class="px-10 pt-5 w-80">
+                        <label>Business Name</label>
+                        <input type="text" name="business-name" 
+                            class="sub mt-1 px-1 w-full border border-sky-600 rounded-md focus:outline-none focus:ring-1"
+                            required>
+                    </div>
+                    <div class="px-10 pt-5 w-80">
+                        <label>Business Website</label>
+                        <input type="text" name="business-website" 
+                            class="sub mt-1 px-1 w-full border border-sky-600 rounded-md focus:outline-none focus:ring-1">
+                    </div>
+                    <div class="px-10 pt-10 w-80">
+                        <label>What are you looking for?</label>
+                        <div class="flex flex-col justify-center">
+                            <label class="sub"><input type="checkbox" name="lookingFor[]" value="Starter Site"> Starter Site</label>
+                            <label class="sub"><input type="checkbox" name="lookingFor[]" value="Standard Site"> Standard Site</label>
+                            <label class="sub"><input type="checkbox" name="lookingFor[]" value="Pro Site"> Pro Site</label>
+                            <label class="sub"><input type="checkbox" name="lookingFor[]" value="Redesign"> Website Redesign</label>
+                            <label class="sub"><input type="checkbox" name="lookingFor[]" value="Maintenance"> Website Maintenance</label>
+                            <label class="sub"><input type="checkbox" name="lookingFor[]" value="Not Sure"> Not Sure</label>
+                            <span class="sub">
+                                <input type="checkbox" name="lookingFor[]" value="Other"> Other:
+                                <input type="text" name="lookingForOther"
+                                    class="mx-1 border-b border-sky-600 focus:outline-none">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="px-10 pt-5 w-100">
+                        <label>What best describes your business?</label>
+                        <div class="flex flex-col justify-center">
+                            <label class="sub"><input type="checkbox" name="businessIs[]" value="Just Starting Out"> Just Starting Out</label>
+                            <label class="sub"><input type="checkbox" name="businessIs[]" value="Small Business"> Small Business (1-5 staff)</label>
+                            <label class="sub"><input type="checkbox" name="businessIs[]" value="Larger Business"> Larger Business (5+ staff)</label>
+                            <label class="sub"><input type="checkbox" name="businessIs[]" value="Freelancer"> Freelancer</label>
+                            <label class="sub"><input type="checkbox" name="businessIs[]" value="Personal Brand"> Personal Brand</label>
+                            <span class="sub">
+                                <input type="checkbox" name="businessIs[]" value="Other"> Other:
+                                <input type="text" name="businessIsOther"
+                                    class="mx-1 border-b border-sky-600 focus:outline-none">
+                            </span>
+                    </div>
+                </div>
+                <div class="flex flex-col w-100">
+                    <div class="px-10 pt-10 w-100">
+                        <label>What is the goal for your website?</label>
+                        <textarea type="" name="goal" 
+                            class="mt-1 py-5 w-full border border-sky-600 rounded-md focus:outline-none focus:ring-1">
+                        </textarea>
+                    </div>
+                    <div class="px-10 pt-5 w-100">
+                        <label>Any other comments?</label>
+                        <textarea type="" name="comments" 
+                            class="mt-1 py-5 w-full border border-sky-600 rounded-md focus:outline-none focus:ring-1">
+                        </textarea>
+                    </div>
+                    <div class="pt-5 flex justify-center"> 
+                        <button class="px-3 py-1 border border-sky-600 hover:bg-gray-300 rounded" type="submit" value="Submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <footer class="flex justify-between items-center mt-10 p-10 text-center text-white">
+            <div>
+                <a href="index.html">Home</a> | 
+                <a href="services.html">Our Services</a> |
+                <a href="work.html">Our Work</a> |
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="flex justify-center items-center gap-5">
+                <a href="https://instagram.com/apexnet.au" title="Instagram" target="_blank"><img src="assets/img/instagram.png" class="h-7"></a>
+                <a href="https://tiktok.com/@apexnet.dev" title="TikTok" target="_blank"><img src="assets/img/tiktok.png" class="h-8"></a>
+            </div>
+            <span>All content © 2025 ApexNet. All rights reserved.</span>
+        </footer>
+    </body>
+</html>
