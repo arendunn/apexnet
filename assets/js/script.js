@@ -29,7 +29,7 @@ function goToContactPage() {
 }
 
 function goToServicesPage() {
-    window.location.href = "index.html";
+    window.location.href = "services.html";
 }
 
 function goToHomePage() {
