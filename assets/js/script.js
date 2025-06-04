@@ -13,6 +13,10 @@ function goToServicesPage() {
     window.location.href = "../services.html";
 }
 
+function goToHomePage() {
+    window.location.href = "../index.html";
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     let lastScroll = 0;
     const navbar = document.getElementById("navbar");
