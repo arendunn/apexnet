@@ -35,7 +35,7 @@
         </nav>
         <section class="contact flex justify-center items-center flex-col  pt-60">
             <h1 class="text-4xl border-l-4 border-sky-600 px-5">Tell us a bit and we'll take it from here!</h1>
-            <form class="py-20" action="https://formspree.io/f/manjnnal" method="POST">
+            <form class="py-10" action="https://formspree.io/f/manjnnal" method="POST">
                 <div class="pb-10 flex flex-col items-center">
                     <div class="px-10 w-80">
                         <label>Your Name</label>
@@ -51,7 +51,7 @@
                     </div>
                     <div class="px-10 pt-5 w-80">
                         <label>Your Phone Number</label>
-                        <input type="text" name="email" 
+                        <input type="text" name="phone" 
                             class="sub mt-1 px-1 w-full border border-sky-600 rounded-md focus:outline-none focus:ring-1"
                             required>
                     </div>
@@ -66,9 +66,9 @@
                         <input type="text" name="business-website" 
                             class="sub mt-1 px-1 w-full border border-sky-600 rounded-md focus:outline-none focus:ring-1">
                     </div>
-                    <div class="px-10 pt-10 w-80">
+                    <div class="px-10 pt-10 w-100">
                         <label>What are you looking for?</label>
-                        <div class="flex flex-col justify-center">
+                        <div class="flex flex-col justify-center pb-5">
                             <label class="sub"><input type="checkbox" name="lookingFor[]" value="Starter Site"> Starter Site</label>
                             <label class="sub"><input type="checkbox" name="lookingFor[]" value="Standard Site"> Standard Site</label>
                             <label class="sub"><input type="checkbox" name="lookingFor[]" value="Pro Site"> Pro Site</label>
@@ -76,13 +76,11 @@
                             <label class="sub"><input type="checkbox" name="lookingFor[]" value="Maintenance"> Website Maintenance</label>
                             <label class="sub"><input type="checkbox" name="lookingFor[]" value="Not Sure"> Not Sure</label>
                             <span class="sub">
-                                <input type="checkbox" name="lookingFor[]" value="Other"> Other:
+                                <input type="checkbox" name="lookingFor[]" value="Other" required> Other:
                                 <input type="text" name="lookingForOther"
                                     class="mx-1 border-b border-sky-600 focus:outline-none">
                             </span>
                         </div>
-                    </div>
-                    <div class="px-10 pt-5 w-100">
                         <label>What best describes your business?</label>
                         <div class="flex flex-col justify-center">
                             <label class="sub"><input type="checkbox" name="businessIs[]" value="Just Starting Out"> Just Starting Out</label>
@@ -91,7 +89,7 @@
                             <label class="sub"><input type="checkbox" name="businessIs[]" value="Freelancer"> Freelancer</label>
                             <label class="sub"><input type="checkbox" name="businessIs[]" value="Personal Brand"> Personal Brand</label>
                             <span class="sub">
-                                <input type="checkbox" name="businessIs[]" value="Other"> Other:
+                                <input type="checkbox" name="businessIs[]" value="Other" required> Other:
                                 <input type="text" name="businessIsOther"
                                     class="mx-1 border-b border-sky-600 focus:outline-none">
                             </span>
@@ -101,13 +99,13 @@
                     <div class="px-10 pt-10 w-100">
                         <label>What is the goal for your website?</label>
                         <textarea type="" name="goal" 
-                            class="mt-1 py-5 w-full border border-sky-600 rounded-md focus:outline-none focus:ring-1">
+                            class="sub mt-1 p-3 w-full border border-sky-600 rounded-md focus:outline-none focus:ring-1">
                         </textarea>
                     </div>
                     <div class="px-10 pt-5 w-100">
                         <label>Any other comments?</label>
                         <textarea type="" name="comments" 
-                            class="mt-1 py-5 w-full border border-sky-600 rounded-md focus:outline-none focus:ring-1">
+                            class="sub mt-1 p-3 w-full border border-sky-600 rounded-md focus:outline-none focus:ring-1">
                         </textarea>
                     </div>
                     <div class="pt-5 flex justify-center"> 
