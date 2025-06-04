@@ -25,15 +25,15 @@ function goToServices() {
 }
 
 function goToContactPage() {
-    window.location.href = "../contact.html";
+    window.location.href = "contact.html";
 }
 
 function goToServicesPage() {
-    window.location.href = "../index.html";
+    window.location.href = "index.html";
 }
 
 function goToHomePage() {
-    window.location.href = "../index.html";
+    window.location.href = "index.html";
 }
 
 document.addEventListener("DOMContentLoaded", () => {
