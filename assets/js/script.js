@@ -10,7 +10,7 @@ function goToContactPage() {
 }
 
 function goToServicesPage() {
-    window.location.href = "../services.html";
+    window.location.href = "../index.html";
 }
 
 function goToHomePage() {
