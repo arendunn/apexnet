@@ -36,6 +36,10 @@ function goToHomePage() {
     window.location.href = "index.html";
 }
 
+function goToWorkPage() {
+    window.location.href = "work.html";
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     let lastScroll = 0;
     const navbar = document.getElementById("navbar");
