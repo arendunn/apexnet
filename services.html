@@ -111,30 +111,160 @@
                     <img class="h-25" src="assets/img/landingicon.png"/>
                     <h1 class="text-3xl">Landing Page Packages</h1>
             </span>
-            <div class="flex justify-between flex-col gap-10">
-                <div class="services-border services-item">
-                    <h2 class="text-3xl">Basic Landing Page</h2>
-                    <span>Ideal for a Small Business Launch or a New Product.</span>
-                    <h3>Included:</h3>
-                    <ul>
-                        <li>Single Page Promo Site</li>
-                        <li>Responsive Design</li>
-                        <li>CTA Button</li>
-                        <li>Contact Form</li>
-                    </ul>
-                </div>
-                <div class="services-border services-item">
-                    <h2 class="text-3xl">Advanced Landing Page</h2>
-                    <span>Perfect for Upcoming Events or a New Platform Release.</span>
-                    <h3>Included:</h3>
-                    <ul>
-                        <li>Tracking</li>
-                        <li>Analytics</li>
-                        <li>Countdown Timer</li>
-                        <li>Sign up Form</li>
-                        <li>Booking Feature</li>
-                    </ul>
-                </div>
+            <table>
+                <tr>
+                    <td>
+                        Tier
+                    </td>
+                    <td>
+                        Ideal for
+                    </td>
+                    <td>
+                        What's Included
+                    </td>
+                    <td>
+                        Price (AUD)
+                    </td>
+                </tr>
+                <tr>
+                    <th>Basic<br/>Landing Page</th>
+                    <td>
+                        <ul>
+                            <li>Small Business Launch</li>
+                            <li>New Product</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Single Page Promo Site</li>
+                            <li>Responsive Design</li>
+                            <li>CTA Button</li>
+                            <li>Contact Form</li>
+                        </ul>
+                    </td>
+                    <td>$300 - $600</td>
+                </tr>
+                <tr>
+                    <th>Advanced<br/>Landing Page</th>
+                    <td>
+                        <ul>
+                            <li>Upcoming Events</li>
+                            <li>New Platform Release</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Tracking</li>
+                            <li>Analytics</li>
+                            <li>Countdown Timer</li>
+                            <li>Sign up Form</li>
+                            <li>Booking Feature</li>
+                        </ul>
+                    </td>
+                    <td>$1000 - $1500</td>
+                </tr>
+            </table>
+            <span class="flex items-center gap-10 pt-20 pb-10">
+                    <img class="h-15" src="assets/img/addonicon.png"/>
+                    <h1 class="text-3xl">Optional Add-Ons</h1>
+            </span>
+            <table>
+                <tr>
+                    <td>
+                        Tier
+                    </td>
+                    <td class="pl-40 text-right">
+                        Price (AUD)
+                    </td>
+                </tr>
+                <tr>
+                    <td>Domain + Email Setup</td>
+                    <td class="text-right">$50 - $150</td>
+                </tr>
+                <tr>
+                    <td>Google Analytics + Conversion Setup</td>
+                    <td class="text-right">$100 - $150</td>
+                </tr>
+                <!--
+                <tr>
+                    <td>Blog Setup</td>
+                    <td class="text-right">$250 - $300</td>
+                </tr>
+                <tr>
+                    <td>SEO Optimisation</td>
+                    <td class="text-right">$250+</td>
+                </tr>
+                <tr>
+                    <td>Integrated Booking or Inquiry System</td>
+                    <td class="text-right">$100+</td>
+                </tr>
+                -->
+                <tr>
+                    <td>Additional Page</td>
+                    <td class="text-right">$100 - $250</td>
+                </tr>
+                <tr>
+                    <td>Page Redesign</td>
+                    <td class="text-right">$200+</td>
+                </tr>
+                <tr>
+                    <td>Feature Integration</td>
+                    <td class="text-right">$150 - $300</td>
+                </tr>
+                <tr>
+                    <td>Full Style Revamp</td>
+                    <td class="text-right">$400 - $800</td>
+                </tr>
+                <tr>
+                    <td>Hourly Rate for Custom Work</td>
+                    <td class="text-right">$60 - $120/hr</td>
+                </tr>
+            </table>
+            <span class="flex items-center gap-10 pt-20 pb-10">
+                    <img class="h-25" src="assets/img/maintenanceicon.png"/>
+                    <h1 class="text-3xl">Maintenance Plans</h1>
+            </span>
+            <table>
+                <tr>
+                    <td>
+                        Plan
+                    </td>
+                    <td>
+                        Features
+                    </td>
+                    <td>
+                        Price (AUD)
+                    </td>
+                </tr>
+                <tr>
+                    <td>Basic</td>
+                    <td>
+                        <ul>
+                            <li>Hosting, Domain, Uptime Monitoring</li>
+                        </ul>
+                    </td>
+                    <td>$30 - $50/month</td>
+                </tr>
+                <tr>
+                    <td>Professional</td>
+                    <td>
+                        <ul>
+                            <li>
+                                Hosting, Domain, Uptime Monitoring, Google Analytics<br/>
+                                Reports, Text Updates, Image Updates
+                            </li>
+                        </ul>
+                    </td>
+                    <td>$50 - $150/month</td>
+                </tr>
+            </table>
+            <div class="flex justify-center items-center mt-20 gap-10 btn">
+                <button class="text-2xl pt-5 underline decoration-sky-600 decoration-2 underline-offset-3" onclick=goToWorkPage()>
+                    Explore Our Work!
+                </button>
+                <button class="text-2xl pt-5 underline decoration-sky-600 decoration-2 underline-offset-3" onclick=goToContactPage()>
+                    Interested? Contact Us! &rarr;
+                </button>
             </div>
             <div class="flex flex-col justify-center items-center pt-20">
                 <h2 class="sub pt-5">Quotes are specific to each project, please use tiers as a guide.</h2>
