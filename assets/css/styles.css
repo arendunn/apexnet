@@ -187,3 +187,33 @@ input, .sub {
     padding-left: 20%;
     padding-right: 20%;
 }
+
+
+
+/*SERVICES*/
+table {
+    text-align: start;
+    overflow-x: auto;
+}
+
+table th {
+    font-size: 20px;
+    padding: 10px;
+    text-align: start;
+}
+
+table tr:first-of-type {
+    border-bottom: #747474 2px solid;
+}
+
+table tr {
+    border-bottom: #414141 1px solid;
+}
+
+table tr:last-of-type {
+    border: none;
+}
+
+table td {
+    padding: 10px;
+}
