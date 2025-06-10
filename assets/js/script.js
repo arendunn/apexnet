@@ -28,10 +28,6 @@ function goToContactPage() {
     window.location.href = "contact.html";
 }
 
-function goToServicesPage() {
-    window.location.href = "services.html";
-}
-
 function goToHomePage() {
     window.location.href = "index.html";
 }
