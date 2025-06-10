@@ -23,14 +23,13 @@
             <a href="index.html">
                 <img class="h-7" src="assets/img/logo.png" alt="ApexNet Logo"/>
             </a>
-            <div id="navbar-hamburger" class="navbar hidden">
-                //
-            </div>
-            <div id="navbar-links" class="navbar flex justify-between items-center gap-10">
-                <a class="text-2xl" href="index.html">Home</a>
-                <a class="text-2xl" href="services.html">Our Services</a>
-                <a class="text-2xl" href="work.html">Our Work</a>
-                <a class="text-2xl" href="contact.html">Contact</a>
+            <div class="flex gap-5">
+                <div id="navbar-links" class="navbar flex justify-between items-center gap-10">
+                    <a class="text-2xl" href="index.html">Home</a>
+                    <a class="text-2xl" href="#services">Our Services</a>
+                    <a class="text-2xl" href="#work">Our Work</a>
+                </div>
+                <button class="hover:bg-sky-500 m-2 p-2 px-4 bg-sky-600" onclick=goToContactPage()>Contact</button>
             </div>
         </nav>
         <section class="thanks flex justify-center items-center flex-col pt-60">
@@ -40,15 +39,18 @@
             </button>
         </section>
         <footer class="flex justify-between items-center mt-10 p-10 text-center text-white">
-            <div>
-                <a href="index.html">Home</a> | 
-                <a href="services.html">Our Services</a> |
-                <a href="work.html">Our Work</a> |
-                <a href="contact.html">Contact</a>
+            <div class="flex justify-center items-center bg-white p-5 w-60">
+                <a href="index.html"><img src="assets/img/logo.png"></a>
             </div>
             <div class="flex justify-center items-center gap-5">
                 <a href="https://instagram.com/apexnet.au" title="Instagram" target="_blank"><img src="assets/img/instagram.png" class="h-7"></a>
                 <a href="https://tiktok.com/@apexnet.dev" title="TikTok" target="_blank"><img src="assets/img/tiktok.png" class="h-8"></a>
+            </div>
+            <div>
+                <a href="index.html">Home</a> | 
+                <a href="#services">Our Services</a> |
+                <a href="#work">Our Work</a> |
+                <a href="contact.html">Contact</a>
             </div>
             <span>All content © 2025 ApexNet. All rights reserved.</span>
         </footer>
