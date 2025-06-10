@@ -173,6 +173,13 @@ footer a:hover {
         padding: 5px !important;
         margin: 5px !important;
     }
+    table {
+        width: 90% !important;
+    }
+    .contact {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
 
 @media screen and (max-width: 1500px) {
