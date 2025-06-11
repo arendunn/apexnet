@@ -13,6 +13,11 @@ function goToHomePage() {
     window.location.href = "index.html";
 }
 
+function goToServicesPage() {
+    window.location.href = "services.html";
+}
+
+
 function goToWorkPage() {
     window.location.href = "work.html";
 }
