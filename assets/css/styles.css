@@ -149,11 +149,21 @@ footer a:hover {
 }
 
 @media screen and (max-width: 767px) {
+    #navbar {
+        padding: 10px;
+    }
+    #navbar img {
+        height: 20px;
+    }
     #navbar-links {
         display: none;
     }
-    #navbar-hamburger {
-        display: flex;
+    #navbar-icons {
+        gap: 10px;
+    }
+    #navbar-icons a {
+        padding: 5px;
+        display: inline;
     }
     .clients {
         padding-left: 0;

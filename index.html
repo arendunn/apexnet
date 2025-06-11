@@ -26,16 +26,24 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
+    
     <body>
         <nav id="navbar" class="flex justify-between items-center p-10 fixed top-0 left-0 w-full z-50">
             <a href="index.html">
                 <img class="h-7" src="assets/img/logo.png" alt="ApexNet Logo"/>
             </a>
             <div class="flex gap-5">
-                <div id="navbar-links" class="navbar flex justify-between items-center gap-10">
-                    <a class="text-2xl" href="index.html">Home</a>
-                    <a class="text-2xl" href="#services">Our Services</a>
-                    <a class="text-2xl" href="#work">Our Work</a>
+                <div class="flex gap-5">
+                    <div id="navbar-links" class="navbar flex justify-between items-center gap-10">
+                        <a class="text-2xl" href="index.html">Home</a>
+                        <a class="text-2xl" href="#services">Our Services</a>
+                        <a class="text-2xl" href="#work">Our Work</a>
+                    </div>
+                </div>
+                <div id="navbar-icons" class="navbar flex justify-between items-center gap-10">
+                    <a class="hidden text-2xl" href="index.html"><img src="assets/img/homeicon.png"></a>
+                    <a class="hidden text-2xl" href="#services"><img src="assets/img/servicesicon.png"></a>
+                    <a class="hidden text-2xl" href="#work"><img src="assets/img/workicon.png"></a>
                 </div>
                 <button class="hover:bg-sky-500 m-2 p-2 px-4 bg-sky-600" onclick=goToContactPage()>Contact</button>
             </div>
@@ -52,7 +60,7 @@
                 <a href="https://tiktok.com/@apexnet.dev" title="TikTok" target="_blank"><img src="assets/img/tiktok.png" class="h-8"></a>
             </div>
         </section>
-        <section class="about p-2/3">
+        <section class="about">
             <h2 class="text-4xl">
                 <span class="underline decoration-sky-600 decoration-4 underline-offset-8">ApexNet</span> 
                 is a Sydney-based Web Development Business focused on building clean, modern websites for small 
