@@ -18,17 +18,17 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: #e3e3e3;
+    background-color: #a2c2dd;
     color: #414141;
     box-shadow: 0 1px 2px #a1a1a1;
     transition: transform 0.7s;
 }
 
-nav a {
+nav a, #services a, #contact a {
     transition: transform ease-in-out 0.1s, color ease-in-out 0.1s;
 }
 
-nav a:hover {
+nav a:hover, #services a:hover, #contact a:hover {
     transform: scale(1.03);
     color: #3A3A3A;
 }
@@ -162,13 +162,6 @@ footer a:hover {
     .services div {
         flex-direction: column;
     }
-}
-
-@media screen and (max-width: 800px){  
-    footer {
-        flex-direction: column;
-        gap: 10px;
-    }
     td, table {
         padding: 5px !important;
         margin: 5px !important;
@@ -180,7 +173,22 @@ footer a:hover {
         padding-left: 2%;
         padding-right: 2%;
     }
+    .hero h1 {
+        margin-left: 5% !important;
+    }
+    #contact h1 {
+        margin-left: 10% !important;
+    }
+}
 
+@media screen and (max-width: 1100px) {
+    footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .home-services {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 1500px) {
