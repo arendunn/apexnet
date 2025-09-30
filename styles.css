@@ -26,18 +26,18 @@ header {
 }
 
 header .logo {
-  width: 400px;
+  width: 20rem;
   margin-bottom: 1rem;
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: var(--dark);
   margin-bottom: 1.5rem;
 }
 
 main .logo {
-  width: 200px;
+  width: 150px;
 }
 
 main {
@@ -65,7 +65,7 @@ main {
 }
 
 #brand > a > .icon {
-  height: 40px;
+  height: 30px;
 }
 
 a {
